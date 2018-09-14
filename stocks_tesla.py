@@ -13,6 +13,6 @@ end = datetime.datetime(2015,1,1)
 df = web_ui.DataReader('TSLA', 'robinhood', start, end)
 print(df.head())
 
-df['Adj Close'].plot()
+#df['Adj Close'].plot()
 
-plt.show()
+#plt.show()
