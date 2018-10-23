@@ -17,6 +17,9 @@ print(df)
 #to print top except last value
 print(df.head())
 
+#to print desired values
+print(df.head(9))
+
 #to print last except top value
 print(df.tail())
 
