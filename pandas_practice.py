@@ -6,22 +6,22 @@ dict = {'name': ['abhi','lovee','ishu','mouli'],
 		}
 		
 df = pd.DataFrame(dict)
-#print(df)
+print(df)
 
-#print(df.tail(3))
+print(df.tail(3))
 
 df.index.name = 'No.'
-#print(df)
+print(df)
 
 df.columns.name = 'order'
-#print(df)
+print(df)
 
-#print(df['age'])
+print(df['age'])
 
-#print(df[['age','location']])
+print(df[['age','location']])
 
 df.to_html('personal_details.html') 
-#df.to_html('personal_details.html', header = False)
+df.to_html('personal_details.html', header = False)
 
 df.rename(columns = {'name':'humra_name' , 'age':'umaar'}, inplace=True)
 print(df)
